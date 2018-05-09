@@ -1,3 +1,11 @@
+/* 
+colores
+naranja:    FF5533
+rojo:       E64E30
+azul:       3A8AC0
+amarillo    FFB52D
+*/
+
 * {
     padding: 0;
     margin: 0;
@@ -25,13 +33,14 @@ body {
 /* clases generales*/
 
 .nav-mobile{
-    background-color: #000;
+    background-color: #E64E30;
     display: flex;
     align-items: center;
     position: fixed;
     width: 100%;
     top:0;
     left:0;
+    z-index: 2;
 }
 
 .block-icon , .block-text{    
@@ -53,10 +62,14 @@ body {
 
 .nav-mobile-group{
     padding-top: 70px;
-    background-color: rgba(0,0,0,0.6);
+    background-color: #FFB52D;
     min-width: 200px;
     height: 100vh;
     max-width: 250px;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 1;
 }
 
 .nav-mobile-group > ul > li{
@@ -82,71 +95,10 @@ body {
     text-decoration: none;
 }
 
-.nav-mobile-group > ul > li:nth-child(1) > img{
-   width: 200px;
+.nav-mobile-group > ul > li > a:hover{
+    color: #3A8AC0;
 }
 
-/*
-@media screen and (max-width: 800px) {
-    body {
-        padding-top: 80px;
-    }
-
-    .menu_bar {
-        display: block;
-        width: 100%;
-        position: fixed;
-        top: 0;
-        background: #E6344A;
-    }
-
-    .menu_bar .bt-menu {
-        display: block;
-        padding: 20px;
-        color: #fff;
-        overflow: hidden;
-        font-size: 25px;
-        font-weight: bold;
-        text-decoration: none;
-    }
-
-    .menu_bar span {
-        float: right;
-        font-size: 40px;
-    }
-
-    header nav {
-        width: 80%;
-        height: calc(100% - 80px);
-        position: fixed;
-        right: 100%;
-        margin: 0;
-        overflow: scroll;
-    }
-
-    header nav ul li {
-        display: block;
-        border-bottom: 1px solid rgba(255, 255, 255, .5);
-    }
-
-    header nav ul li a {
-        display: block;
-    }
-
-    header nav ul li:hover .children {
-        display: none;
-    }
-
-    header nav ul li .children {
-        width: 100%;
-        position: relative;
-    }
-
-    header nav ul li .children li a {
-        margin-left: 20px;
-    }
-
-    header nav ul li .caret {
-        float: right;
-    }
+.nav-mobile-group > ul > li:nth-child(1) > img{
+   width: 200px;
 }
