@@ -30,12 +30,14 @@ body {
 /* clases generales*/
 
 .nav-mobile {
+    height: 70px;
     background-color: #E64E30;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 2;
+    padding-top: 9px;
 }
 
 .block-text {
@@ -62,9 +64,8 @@ body {
     margin-left: 15px;
 }
 
-
 .nav-mobile-group {
-    padding-top: 40px;
+    padding-top: 55px;
     background-color: #FFB52D;
     min-width: 200px;
     height: 100vh;
@@ -148,6 +149,12 @@ body {
     display: none;
 }
 
+/*fin navegador*/
+
+.container {
+    margin-top: 70px;
+}
+
 @media only screen and (max-width: 800px) {
     .nav-mobile {
         display: block;
@@ -159,5 +166,9 @@ body {
 
     .nav-desktop {
         display: none;
+    }
+
+    .container {
+        margin-top: 50px;
     }
 }
