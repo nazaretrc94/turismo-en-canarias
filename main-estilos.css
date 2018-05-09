@@ -1,9 +1,14 @@
 /* 
-colores
-naranja:    FF5533
-rojo:       E64E30
-azul:       3A8AC0
-amarillo    FFB52D
+colores:
+	naranja:    FF5533
+	rojo:       E64E30
+	azul:       3A8AC0
+	amarillo    FFB52D
+	gris:		4C4C4C
+
+fuentes:
+	font-family: 'Pacifico', cursive;
+	font-family: 'Kaushan Script', cursive;
 */
 
 * {
@@ -16,8 +21,7 @@ amarillo    FFB52D
 }
 
 body {
-    background: grey;
-    height: 100vh;
+	background-color: #2edaec;
 }
 
 /* clases generales*/
@@ -31,7 +35,7 @@ body {
 
 .nav-mobile {
     height: 70px;
-    background-color: #E64E30;
+    background-color: #FFB52D;
     position: fixed;
     width: 100%;
     top: 0;
@@ -108,7 +112,7 @@ body {
 }
 
 .nav-desktop {
-    background-color: #3A8AC0;
+    background-color: #FFB52D;
     padding-left: 50px;
     padding-right: 50px;
     display: flex;
@@ -141,6 +145,10 @@ body {
     text-decoration: none;
 }
 
+.nav-desktop > .bloqueB > a:hover{
+	color: #3A8AC0;
+}
+
 .nav-mobile {
     display: none;
 }
@@ -151,8 +159,46 @@ body {
 
 /*fin navegador*/
 
-.container {
+.section{
+	padding: 50px;
+}
+
+.bloque1 {
     margin-top: 70px;
+	background-image: url(img/rene_egli_sotavento_fuerteventura.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	padding: 0;
+}
+
+.bloque1 > h1{
+	background-color: rgba(255,255,255,0.2);
+	text-align: center;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 2em;
+	padding: 50px;
+	color: #4C4C4C;
+}
+
+.bloque1 > h1 > span{
+	font-size: 2.3em;
+}
+
+.tituloNombre {	
+	font-family: 'Kaushan Script', cursive;
+	font-size: 1.5em;
+	padding: 5px;
+}
+
+.section:nth-child(2n+1){
+	background-color: white;
+}
+
+.section > div > img{
+	display: block;
+	margin: auto;
 }
 
 @media only screen and (max-width: 800px) {
