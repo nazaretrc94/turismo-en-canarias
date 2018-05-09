@@ -4,15 +4,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-
 	<title>TurismoCanarias.es</title>
 
 	<!-- Scripts -->
 	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-	<script src="main-js.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="js/main-js.js"></script>
 
 	<!-- Estilos -->
-	<link rel="stylesheet" href="main-estilos.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="css/main-estilos.css">
 
 	<!-- fuentes -->
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Pacifico" rel="stylesheet">
@@ -75,14 +77,54 @@
 	<div class="section bloque2" id="playas">
 		<div id="tenerife">
 			<h1 class="tituloNombre">Tenerife</h1>
-			<img src="img/411-playa-americas01.jpg" alt="">
+			<div class="flexslider">
+				<ul class="slides">
+					<li>
+						<p class="flex-caption">Adeje - Las Americas</p>
+						<img src="img/tenerife/adeje.jpg" />
+					</li>
+					<li>
+						<p class="flex-caption">Arona - Los Cristianos</p>
+						<img src="img/tenerife/los-cristianos-arona-tenerife.jpg" />
+
+					</li>
+					<li>
+						<p class="flex-caption">Puerto De La Cruz</p>
+						<img src="img/tenerife/Playa-Martianez-archivo-Puerto-Cruz_EDIIMA20170712_0798_19.jpg" />
+
+					</li>
+					<li>
+						<p class="flex-caption">Santiago Del Teide - Los Gigantes</p>
+						<img src="img/tenerife/losgigantes.jpg" />
+
+					</li>
+				</ul>
+			</div>
 		</div>
-	</div>
-	
-	<div class="section bloque2" id="playas">
-		<div id="laspalmas">
-			<h1 class="tituloNombre">Las Palmas De Gran Canaria</h1>
-			<img src="img/411-playa-americas01.jpg" alt="">
+
+		<div id="grancanaria">
+			<h1 class="tituloNombre">Tenerife</h1>
+			<div class="flexslider">
+				<ul class="slides">
+					<li>
+						<p class="flex-caption">Adeje - Las Americas</p>
+						<img src="img/tenerife/adeje.jpg" />
+
+					</li>
+					<li>
+						<img src="img/tenerife/los-cristianos-arona-tenerife.jpg" />
+						<p class="flex-caption">Arona - Los Cristianos</p>
+					</li>
+					<li>
+						<img src="img/tenerife/Playa-Martianez-archivo-Puerto-Cruz_EDIIMA20170712_0798_19.jpg" />
+						<p class="flex-caption">Puerto De La Cruz</p>
+					</li>
+					<li>
+						<img src="img/tenerife/losgigantes.jpg" />
+						<p class="flex-caption">Santiago Del Teide - Los Gigantes</p>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </body>
