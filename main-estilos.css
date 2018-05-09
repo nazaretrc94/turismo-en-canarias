@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size:20px;
+}
+
+body {
+    background: grey;
+    height: 100vh;
+}
+
+/* clases generales*/
+.icono-normal{
+    width: 30px;
+    height: 30px;
+}
+
+.icono-grande{
+    width: 70px;
+    height: 70px;
+}
+/* clases generales*/
+
+.nav-mobile{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+}
+
+.block-icon , .block-text{    
+    text-align: center;
+}
+
+.block-icon{
+    width: 70px;    
+    padding: 7px;
+    padding-right: 0;
+    cursor: pointer;
+}
+
+.texto{
+    font-size: 1.5em;
+    color:white;
+}
+
+
+.nav-mobile-group{
+    padding-top: 70px;
+    background-color: rgba(0,0,0,0.6);
+    min-width: 200px;
+    height: 100vh;
+    max-width: 250px;
+}
+
+.nav-mobile-group > ul > li{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-mobile-group > ul > li:nth-child(1){
+    text-align: center;
+    padding: 20px;
+    display: block;
+}
+
+.details{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+}
+
+.nav-mobile-group > ul > li > a{
+    color:white;
+    text-decoration: none;
+}
+
+.nav-mobile-group > ul > li:nth-child(1) > img{
+   width: 200px;
+}
+
+/*
+@media screen and (max-width: 800px) {
+    body {
+        padding-top: 80px;
+    }
+
+    .menu_bar {
+        display: block;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background: #E6344A;
+    }
+
+    .menu_bar .bt-menu {
+        display: block;
+        padding: 20px;
+        color: #fff;
+        overflow: hidden;
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .menu_bar span {
+        float: right;
+        font-size: 40px;
+    }
+
+    header nav {
+        width: 80%;
+        height: calc(100% - 80px);
+        position: fixed;
+        right: 100%;
+        margin: 0;
+        overflow: scroll;
+    }
+
+    header nav ul li {
+        display: block;
+        border-bottom: 1px solid rgba(255, 255, 255, .5);
+    }
+
+    header nav ul li a {
+        display: block;
+    }
+
+    header nav ul li:hover .children {
+        display: none;
+    }
+
+    header nav ul li .children {
+        width: 100%;
+        position: relative;
+    }
+
+    header nav ul li .children li a {
+        margin-left: 20px;
+    }
+
+    header nav ul li .caret {
+        float: right;
+    }
+}
