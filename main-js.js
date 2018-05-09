@@ -14,6 +14,15 @@ $(document).ready(function () {
                 left: '-100%'
             });
         }
+    });    
+    
+    $(".item-group").on("click", function () {
+        if (contador != 1) {
+            contador = 1;
+            $('.nav-mobile-group').animate({
+                left: '-100%'
+            });
+        }
     });
     /*toggle menu*/
     
