@@ -193,7 +193,7 @@ body {
     font-size: 1.5em;
     padding-top:40px;
     text-align: center;
-    margin-bottom: -20px;
+    margin-bottom: 20px;
 }
 
 .section:nth-child(2n+1) {
@@ -205,13 +205,30 @@ body {
     margin: auto;
 }
 
-
-.flexslider {
-    max-width: 50%;
+.bloque2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 50px;
+	padding-top: 0;
+	
+	background-image: url(../img/beach-dunes-sand-34061.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.slides > li > img {
-    max-height: 300px;
+.bloque2 > div{
+	width: 700px;
+	text-align: center;
+}
+
+.flexslider {
+	background-color: rgba(255,255,255,0.5);
+    max-width: 50%;
+	height: 300px;
 }
 
 .flex-caption {
@@ -226,17 +243,20 @@ body {
     text-align: center;
     padding: 5px;
 }
-#cuestionario{
-    padding: 50px;
-}
 
 .playistas{
     display: block;
     width: 100%;
     max-width: 810px;
-    height: 800px;
+    height: 110vh;
     margin: auto;
     border: none;
+}
+
+.bloque3 > h1{	
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	padding: 30px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -258,5 +278,6 @@ body {
 
     .flexslider {
         max-width: 100%;
+		height: auto;
     }
 }
