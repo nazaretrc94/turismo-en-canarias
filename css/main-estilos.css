@@ -12,224 +12,239 @@ fuentes:
 */
 
 * {
-	padding: 0;
-	margin: 0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	font-size: 20px;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 20px;
 }
 
 body {
-	background-color: #2edaec;
+    background-color: #2edaec;
 }
 
 /* clases generales*/
 
 .icono-normal {
-	width: 30px;
-	height: 30px;
+    width: 30px;
+    height: 30px;
 }
 
 /* clases generales*/
 
 .nav-mobile {
-	height: 70px;
-	background-color: #FFB52D;
-	position: fixed;
-	width: 100%;
-	top: 0;
-	left: 0;
-	z-index: 2;
-	padding-top: 9px;
+    height: 70px;
+    background-color: #FFB52D;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    padding-top: 9px;
 }
 
 .block-text {
-	width: 50%;
+    width: 50%;
 }
 
 .block-icon {
-	text-align: center;
-	width: 170px;
-	padding: 7px;
-	padding-right: 0;
-	cursor: pointer;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    text-align: center;
+    width: 170px;
+    padding: 7px;
+    padding-right: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .texto {
-	font-size: 1.5em;
-	color: white;
+    font-size: 1.5em;
+    color: white;
 }
 
 .info {
-	margin-left: 15px;
+    margin-left: 15px;
 }
 
 .nav-mobile-group {
-	padding-top: 55px;
-	background-color: #FFB52D;
-	min-width: 200px;
-	height: 100vh;
-	max-width: 250px;
-	position: fixed;
-	top: 0;
-	left: -100%;
-	z-index: 1;
+    padding-top: 55px;
+    background-color: #FFB52D;
+    min-width: 200px;
+    height: 100vh;
+    max-width: 250px;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    z-index: 1;
 }
 
 .nav-mobile-group > ul > li {
-	padding: 10px;
-	display: flex;
-	align-items: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .nav-mobile-group > ul > li:nth-child(1) {
-	text-align: center;
-	padding: 20px;
-	display: block;
+    text-align: center;
+    padding: 20px;
+    display: block;
 }
 
 .details {
-	width: 15px;
-	height: 15px;
-	margin: 5px;
+    width: 15px;
+    height: 15px;
+    margin: 5px;
 }
 
 .nav-mobile-group > ul > li > a {
-	color: white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .nav-mobile-group > ul > li > a:hover {
-	color: #3A8AC0;
+    color: #3A8AC0;
 }
 
 .nav-mobile-group > ul > li:nth-child(1) > img {
-	width: 200px;
+    width: 200px;
 }
 
 .nav-desktop {
-	background-color: #FFB52D;
-	padding-left: 50px;
-	padding-right: 50px;
-	display: flex;
-	align-items: center;
-	position: fixed;
-	width: 100%;
-	top: 0;
-	left: 0;
-	z-index: 2;
+    background-color: #FFB52D;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
 
 .nav-desktop > .bloqueA {
-	width: 140px;
+    width: 140px;
 }
 
 .nav-desktop > .bloqueA > img {
-	display: block;
-	width: 100%;
+    display: block;
+    width: 100%;
 }
 
 .nav-desktop > .bloqueB {
-	text-align: right;
-	width: 100%;
+    text-align: right;
+    width: 100%;
 }
 
 .nav-desktop > .bloqueB > a {
-	margin: 10px;
-	padding: 5px;
-	color: white;
-	text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
 }
 
 .nav-desktop > .bloqueB > a:hover {
-	color: #3A8AC0;
+    color: #3A8AC0;
 }
 
 .nav-mobile {
-	display: none;
+    display: none;
+    z-index: 100;
 }
 
 .nav-mobile-group {
-	display: none;
+    display: none;
+    z-index: 99;
 }
 
 /*fin navegador*/
 
 .section {
-	padding: 20px;
+    padding: 20px;
 }
 
 .bloque1 {
-	margin-top: 70px;
-	background-image: url(../img/rene_egli_sotavento_fuerteventura.jpg);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	background-position: center;
-	padding: 0;
+    margin-top: 70px;
+    background-image: url(../img/rene_egli_sotavento_fuerteventura.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
 }
 
 .bloque1 > h1 {
-	background-color: rgba(255, 255, 255, 0.2);
-	text-align: center;
-	font-family: 'Kaushan Script', cursive;
-	font-size: 2em;
-	padding: 50px;
-	color: #4C4C4C;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2em;
+    padding: 50px;
+    color: #4C4C4C;
 }
 
 .bloque1 > h1 > span {
-	font-size: 2.3em;
+    font-size: 2.3em;
 }
 
 .tituloNombre {
-	font-family: 'Kaushan Script', cursive;
-	font-size: 1.5em;
-	padding: 5px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5em;
+    padding-top:40px;
+    text-align: center;
+    margin-bottom: -20px;
 }
 
 .section:nth-child(2n+1) {
-	background-color: white;
+    background-color: white;
 }
 
 .section > div > img {
-	display: block;
-	margin: auto;
+    display: block;
+    margin: auto;
 }
 
-.slides > li > img{
-	height: 100%;
+
+.flexslider {
+    max-width: 50%;
+}
+
+.slides > li > img {
+    max-height: 300px;
 }
 
 .flex-caption {
-	width: 100%;
-	left: 0;
-	bottom: 0;
-	color: #fff;
-	text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
-	font-size: 1.2em;
-	color: black;
-	font-family: 'Kaushan Script', cursive;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .3);
+    font-size: 1.2em;
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    padding: 5px;
 }
 
 @media only screen and (max-width: 800px) {
-	.nav-mobile {
-		display: block;
-	}
+    .nav-mobile {
+        display: block;
+    }
 
-	.nav-mobile-group {
-		display: block;
-	}
+    .nav-mobile-group {
+        display: block;
+    }
 
-	.nav-desktop {
-		display: none;
-	}
+    .nav-desktop {
+        display: none;
+    }
 
-	.container {
-		margin-top: 50px;
-	}
+    .container {
+        margin-top: 50px;
+    }
+
+    .flexslider {
+        max-width: 100%;
+    }
 }
