@@ -196,7 +196,7 @@ body {
     margin-bottom: 20px;
 }
 
-.section:nth-child(2n+1) {
+.section:nth-child(2n) {
     background-color: white;
 }
 
@@ -244,6 +244,20 @@ body {
     padding: 5px;
 }
 
+.bloque3 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.bloque3 > div{
+	width: 50%;
+	max-width: 900px;
+	text-align: center;
+}
+
 .playistas{
     display: block;
     width: 100%;
@@ -253,7 +267,7 @@ body {
     border: none;
 }
 
-.bloque3 > h1{	
+.bloque4 > h1{	
 	font-family: 'Kaushan Script', cursive;
 	text-align: center;
 	padding: 30px;
@@ -280,4 +294,8 @@ body {
         max-width: 100%;
 		height: auto;
     }
+	
+	.bloque3 > div{
+		width: 100%;
+	}
 }
