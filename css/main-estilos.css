@@ -226,6 +226,18 @@ body {
     text-align: center;
     padding: 5px;
 }
+#cuestionario{
+    padding: 50px;
+}
+
+.playistas{
+    display: block;
+    width: 100%;
+    max-width: 810px;
+    height: 800px;
+    margin: auto;
+    border: none;
+}
 
 @media only screen and (max-width: 800px) {
     .nav-mobile {
