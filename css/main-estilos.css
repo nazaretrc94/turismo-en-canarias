@@ -21,7 +21,7 @@ fuentes:
 }
 
 body {
-    background-color: #2edaec;
+    background-color: white;
 }
 
 /* clases generales*/
@@ -297,5 +297,13 @@ body {
 	
 	.bloque3 > div{
 		width: 100%;
+	}
+	
+	.bloque2{
+		background-image: url(../img/beach-bird-s-eye-view-ocean-35626.jpg);
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 }
