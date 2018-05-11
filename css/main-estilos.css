@@ -213,7 +213,7 @@ body {
 	padding-bottom: 50px;
 	padding-top: 0;
 
-	background-image: url(../img/beach-dunes-sand-34061.jpg);
+	background-image: url(../img/beach-dawn-dusk-189349.jpg);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -273,6 +273,20 @@ body {
 	padding: 30px;
 }
 
+#playas ,#estadistica, #cuestionario{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#estadistica{
+    background-image: url(../img/../img/beach-dunes-sand-34061.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    padding-bottom: 90px;
+}
+
 @media only screen and (max-width: 800px) {
 	.nav-mobile {
 		display: block;
@@ -307,4 +321,11 @@ body {
 		background-position: top;
 		padding: 0;
 	}
+}
+
+
+@media only screen and (max-width: 960px) {   	
+    .volver{
+        display: none;
+    }
 }
